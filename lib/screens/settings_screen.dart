@@ -1,5 +1,3 @@
-import 'package:audioplayers/audio_cache.dart';
-import 'package:audioplayers/audioplayers.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:game2048flutter/providers/settings_provider.dart';
@@ -19,7 +17,6 @@ class SettingsScreen extends StatefulWidget {
 class _SettingsScreenState extends State<SettingsScreen> {
   String mp3Uri = '';
   bool _isPlaying = false;
-  AudioPlayer player = AudioPlayer();
   SharedPreferences prefs;
 
   // void _playSound() async {
